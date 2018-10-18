@@ -268,21 +268,21 @@ void OnAttach()
 
 	TArray< UObject* >* GObjObjects = (TArray< UObject* >*) GObjects;
 
-	while (GObjObjects->Count < 130000)
+	while (GObjObjects->Count < 138000)
 	{
 		Sleep(100);
 	}
 
-	oProcessEvent = (tProcessEvent)VMTHook(GObjObjects, "SFGameViewportClient Transient.SFGameEngine.SFGameViewportClient", 69);
-	VMTHook(GObjObjects, "SFPlayerController SFGame.Default__SFPlayerController", 69);
-	VMTHook(GObjObjects, "Controller Engine.Default__Controller", 69);
-	VMTHook(GObjObjects, "PlayerController Engine.Default__PlayerController", 69);
-	VMTHook(GObjObjects, "SFPawn SFGame.Default__SFPawn", 69);
-	VMTHook(GObjObjects, "Pawn Engine.Default__Pawn", 69);
-	VMTHook(GObjObjects, "SFPawn_Player SFGame.Default__SFPawn_Player", 69);
-	VMTHook(GObjObjects, "SFWeapon SFGame.Default__SFWeapon", 69);
-	VMTHook(GObjObjects, "SFWeap_InstantHit SFGame.Default__SFWeap_InstantHit", 69);
-	VMTHook(GObjObjects, "SFWeap_Bullet SFGame.Default__SFWeap_Bullet", 69);
+	oProcessEvent = (tProcessEvent)VMTHook(GObjObjects, "SFGameViewportClient Transient.SFGameEngine.SFGameViewportClient", ProcessEvent_Index);
+	VMTHook(GObjObjects, "SFPlayerController SFGame.Default__SFPlayerController", ProcessEvent_Index);
+	VMTHook(GObjObjects, "Controller Engine.Default__Controller", ProcessEvent_Index);
+	VMTHook(GObjObjects, "PlayerController Engine.Default__PlayerController", ProcessEvent_Index);
+	VMTHook(GObjObjects, "SFPawn SFGame.Default__SFPawn", ProcessEvent_Index);
+	VMTHook(GObjObjects, "Pawn Engine.Default__Pawn", ProcessEvent_Index);
+	VMTHook(GObjObjects, "SFPawn_Player SFGame.Default__SFPawn_Player", ProcessEvent_Index);
+	VMTHook(GObjObjects, "SFWeapon SFGame.Default__SFWeapon", ProcessEvent_Index);
+	VMTHook(GObjObjects, "SFWeap_InstantHit SFGame.Default__SFWeap_InstantHit", ProcessEvent_Index);
+	VMTHook(GObjObjects, "SFWeap_Bullet SFGame.Default__SFWeap_Bullet", ProcessEvent_Index);
 
 	int k = 0;
 	int keycurrent = 0;

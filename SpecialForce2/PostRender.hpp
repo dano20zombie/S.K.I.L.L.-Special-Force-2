@@ -1956,13 +1956,13 @@ void inline DrawMenu(UCanvas* canvas)
 		
 		FString watermark(MenuDefin);
 
-		if (MenuX == 0 || (StrLen(canvas, L"¤°.¸¸.·´¯`» | Unreal Advantage | «´¯`·.¸¸.°¤") / 2) > MenuX + 1 || (StrLen(canvas, L"¤°.¸¸.·´¯`» | Unreal Advantage | «´¯`·.¸¸.°¤") / 2) < MenuX - 1)
+		if (MenuX == 0 || (StrLen(canvas, L"¤°.¸¸.·´¯`» | Hack by dano20zombie | «´¯`·.¸¸.°¤") / 2) > MenuX + 1 || (StrLen(canvas, L"¤°.¸¸.·´¯`» | Hack by dano20zombie | «´¯`·.¸¸.°¤") / 2) < MenuX - 1)
 		{
-			MenuX = (StrLen(canvas, L"¤°.¸¸.·´¯`» | Unreal Advantage | «´¯`·.¸¸.°¤") / 2);
-			DrawString(canvas, 231 - MenuX, 20, L"¤°.¸¸.·´¯`» | Unreal Advantage | «´¯`·.¸¸.°¤", White);
+			MenuX = (StrLen(canvas, L"¤°.¸¸.·´¯`» | Hack by dano20zombie | «´¯`·.¸¸.°¤") / 2);
+			DrawString(canvas, 231 - MenuX, 20, L"¤°.¸¸.·´¯`» | Hack by dano20zombie | «´¯`·.¸¸.°¤", White);
 		}
 		else
-			DrawString(canvas, 231 - MenuX, 20, L"¤°.¸¸.·´¯`» | Unreal Advantage | «´¯`·.¸¸.°¤", White);
+			DrawString(canvas, 231 - MenuX, 20, L"¤°.¸¸.·´¯`» | Hack by dano20zombie | «´¯`·.¸¸.°¤", White);
 	}
 
 	//SELECTIONS DRAW - Done
