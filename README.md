@@ -4,15 +4,15 @@ These hack have been coded by me (dano20zombie).
 Released after 2 years of (Private/VIP) use.
 I'am releasing it now because I gave my source code to some turks that now are using it on their website.
 
-.::Game Information::.
-Publisher: Gameforge
-Game Engine: Unreal Engine 3
-Anti-Cheat: XIGNCODE 3
+Game Informations
+-----------------
+* Publisher: Gameforge
+* Game Engine: Unreal Engine 3
+* Anti-Cheat: XIGNCODE 3
 
-.::Unique Features::.
-• Anti Teamviewer
-(Does your clan control you? This feature will hide your hacks until TeamViewer remains open.)
-
+Unique Features
+---------------
+* Anti Teamviewer (Does your clan control you? This feature will hide your hacks until TeamViewer remains open.)
 
 Features
 --------
