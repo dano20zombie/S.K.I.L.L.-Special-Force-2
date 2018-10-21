@@ -9,13 +9,13 @@ Game Informations
 * Publisher: Gameforge
 * Game Engine: Unreal Engine 3
 * Anti-Cheat: XIGNCODE 3
+* Cheat Coder: dano20zombie (me)
 
 Unique Features
 ---------------
 * Anti Teamviewer (Does your clan control you? This feature will hide your hacks until TeamViewer remains open.)
 
-Features
---------
+# Features
 
 Aimbot
 ------
